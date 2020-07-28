@@ -21,7 +21,6 @@ node {
     }
 
     stage('Push image') {
-	    echo 'jenkins' | gnome-keyring-daemon -r -d --unlock
 
         /* 
 			You would need to first register with DockerHub before you can push images to your account
